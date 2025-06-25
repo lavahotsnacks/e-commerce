@@ -1,7 +1,6 @@
 <template>
     <div>
         <p>Product details for {{ id }}</p>
-        <p>`[id].vue` file</p>
     </div>
 </template>
 

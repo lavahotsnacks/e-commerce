@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Home</h1>
-        <p>This page is the `index.vue` file under pages, a feature of Nuxt.</p>
+        <p>Welcome this page. Still in W.I.P</p>
     </div>
 </template>
 
