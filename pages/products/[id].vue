@@ -6,7 +6,11 @@
 </template>
 
 <script setup>
-const { id } = useRoute().params
+    const { id } = useRoute().params
+    // Special composable function from Nuxt called definePageMeta
+    definePageMeta({
+        layout: 'products',
+    })
 </script>
 
 <style scoped>
