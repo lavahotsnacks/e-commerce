@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-gray-200 min-h-screen">
+    <div class="bg-candy-300 min-h-screen">
         <header class="shadow-sm bg-white">
-            <nav class="bg-gray-300 mx-auto p-4 flex justify-between">
+            <nav class="bg-candy-200 mx-auto p-4 flex justify-between">
                 <NuxtLink to="/" class="mangorangca font-bold">Mangorangca</NuxtLink>
                 <ul class="flex gap-4">
                     <li><NuxtLink to="/">Home</NuxtLink></li>
@@ -22,9 +22,9 @@
 
 <style scoped>
     .router-link-exact-active {
-        color: red;
+        color: pink
     }
     .mangorangca {
-        color: black;
+        color: palevioletred
     }
 </style>

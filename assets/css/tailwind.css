@@ -1,3 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* this took so much of my time so this comment will be engraved here (june 24 to 26, of 2025) */
+/* the fix: https://www.reddit.com/r/tailwindcss/comments/1i9e7k2/solution_tailwind_v4_missing_tailwindconfigjs/ */
+
+@import "tailwindcss";
+
+@theme {
+    /* color palette from: https://colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff */
+    --color-candy-100: #B1B2FF;
+    --color-candy-200: #AAC4FF;
+    --color-candy-300: #D2DAFF;
+    --color-candy-400: #EEF1FF;
+}
