@@ -4,14 +4,10 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
     const { id } = useRoute().params
-    // Special composable function from Nuxt called definePageMeta
+    // Special composable function, or a macro, from Nuxt called definePageMeta
     definePageMeta({
         layout: 'products',
     })
 </script>
-
-<style scoped>
-
-</style>
